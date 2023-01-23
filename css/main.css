@@ -1929,7 +1929,6 @@ header .logo a {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
-	text-transform: uppercase;
 	letter-spacing: .1rem;
 	display: block;
 	text-align: left;
@@ -2604,5 +2603,19 @@ footer .copyright span:last-child::after {
 
 .portfolioheader{
 	color: white;
+}
+
+.contact-info a{
+	color:white
+}
+
+@keyframes exmaple{
+	from{color: white}
+	to {color: #3F0D39;}
+}
+
+#intro h1{
+	animation-name: example;
+	animation-duration: 4s;
 }
 /*# sourceMappingURL=main.css.map */
